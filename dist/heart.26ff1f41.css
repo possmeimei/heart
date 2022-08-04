@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+#heart {
+  width: 100px;
+  height: 100px;
+  margin: 100px auto;
+  animation: heart .6s infinite alternate;
+  position: relative;
+}
+
+@keyframes heart {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+.circle1 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  right: 100%;
+  transform: translate(60px, 60px);
+}
+
+.circle2 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 100%;
+  left: 100%;
+  transform: translate(-60px, 60px);
+}
+
+.square {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transform: rotate(45deg);
+}
+
+/*# sourceMappingURL=heart.26ff1f41.css.map */
